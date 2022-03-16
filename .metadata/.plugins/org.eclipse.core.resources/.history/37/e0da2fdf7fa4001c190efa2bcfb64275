@@ -1,0 +1,22 @@
+package primeiraAula;
+
+public class Caneta {
+	//ATRIBUTOS
+	String modelo, cor;
+	float ponta;
+	int carga;
+	boolean tampada;
+
+	//MÉTODOS
+	public void rabiscar() {
+
+	}
+
+	public void tampar() {
+
+	}
+
+	public void destampar() {
+
+	}
+}

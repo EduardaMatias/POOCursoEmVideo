@@ -1,0 +1,73 @@
+- O que é um objeto?
+
+Qualquer coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por meio das suas características, comportamentos e estado atual.
+
+Exemplo: controle remoto
+
+- Características: tem uma tela, dois botões e foi fabricado pela GoPro.
+- Comportamento: liga, desliga, pausa e grava.
+- Estado atual: novo, desligado e sem bateria.
+
+Exemplo: compromisso
+
+- Características: dia, hora e tipo de vestimenta.
+- Comportamento: marcado, desmarcado e adiado.
+- Estado atual: marcado.
+
+========================
+
+- Objeto e classe
+
+O molde da caneta é a classe e a caneta em si é o objeto. 
+
+Para POO, a classe precisa responder três perguntas: 
+(Usando uma caneta, por exemplo)
+1. O que eu tenho? (modelo, cor, ponta, carga, tampada...)
+2. O que eu faço? (escrever, rabiscar, pintar, tampar, destampar...)
+3. Como estou agora? (50% de carga, ponta fina, azul, destampada, escrevendo...)
+
+Os nomes técnicos para essas perguntas seriam respectivamente: atributos, métodos e estado.
+
+Todo objeto surge a partir de uma classe (ou seja, um molde).
+
+Instanciar é gerar um objeto a partir de uma classe. 
+
+Ou seja...
+
+*Classe: define os atributos e métodos comuns que serão compartilhados por um objeto.
+
+*Objeto: é uma instância de uma classe.
+
+========================
+
+- Abstração
+
+Nem todo atributo de um objeto é importante para uma aplicação, abstrair é selecionar os atributos importantes para determinada aplicação.
+
+========================
+
+- UML
+
+Diagrama de Classes (conceitos)
+1. Toda classe é um retângulo; 
+2. Dentro desse retângulo, na parte superior, geralmente em negrito, é escrito o nome da classe;
+3. Depois esse retângulo é dividido em três partes: cabeçalho, miolo e a parte de baixo;
+4. No cabeçalho: nome da classe.
+5. No miolo: atributos;
+6. Na parte de baixo: métodos;
+
+========================
+
+- Modificadores de visibilidade
+
+Indicam o nível de acesso aos componentes internos de uma classe;
+
+Símbolos
++ (publica) - todos utilizam
+- (privada) - só eu utilizo
+# (protegido) - minha mãe e os filhos delas utilizam
+
+Para POO...
+Atributos e métodos publicos: a classe atual e todas as outras classes podem acessar.
+Atributos e métodos  privados: somente a classe atual classes pode acessar.
+Atributos e métodos protegidos: a classe atual e todas as suas sub-classes.

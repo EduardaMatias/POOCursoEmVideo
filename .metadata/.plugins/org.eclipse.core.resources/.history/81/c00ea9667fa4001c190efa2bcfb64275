@@ -1,0 +1,11 @@
+package primeiraAula;
+
+public class MainCaneta {
+
+	public static void main(String[] args) {
+		//OBJETO C1
+		Caneta c1 = new Caneta();
+
+	}
+
+}
