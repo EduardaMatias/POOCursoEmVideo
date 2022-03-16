@@ -1,0 +1,8 @@
+package aula3;
+
+public class MainCaneta {
+	public static void main(String[] args) {
+		Caneta c1 = new Caneta("BIC", 0.4f, "azul");
+		c1.status();
+	}
+}

@@ -71,3 +71,16 @@ Para POO...
 Atributos e métodos publicos: a classe atual e todas as outras classes podem acessar.
 Atributos e métodos  privados: somente a classe atual classes pode acessar.
 Atributos e métodos protegidos: a classe atual e todas as suas sub-classes.
+
+========================
+
+- Métodos especiais
+
+1. Métodos acessores (getters)
+2. Métodos modificadores (setters)
+
+Todos os métodos acessores são públicos, os getters sempre retornam alguma coisa e os setters sempre recebem parametro, do mesmo tipo do atributo. 
+
+3. Método construtor
+
+=========================

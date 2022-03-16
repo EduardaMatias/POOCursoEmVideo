@@ -1,0 +1,44 @@
+package aula3;
+
+public class Caneta {
+	private String modelo, cor; //O OBJETO NÃO VAI CONSEGUIR ACESSAR OS ATRIBUTOS SEM OS MÉTODOS GET/SET
+	private float ponta;
+	boolean tampada;
+	
+	//MÉTODO CONSTRUTOR	
+	public Caneta(String m, float p, String c) {
+		this.setModelo(m);
+		this.setPonta(p);
+		this.cor = c;
+		this.tampar();
+	}
+
+	//MÉTODO ACESSOR
+	public String getModelo() {
+		return this.modelo;
+	}
+	
+	public float getPonta() {
+		return this.ponta;
+	}
+	
+	//MÉTODO MODIFICADOR
+	public void setModelo(String m) {
+		this.modelo = m;
+	}
+	
+	public void setPonta(float p) {
+		this.ponta = p;
+	}
+	
+	//OUTROS MÉTODOS
+	public void tampar() {
+		this.tampada = true;
+	}
+	
+	public void status() {
+		System.out.println("=== SOBRE A CANETA ==== \nModelo: " + this.getModelo() + 
+				"\nPonta: " + this.getPonta() + "\nEstá tampada: " + this.tampada +
+				"\nCor: " + this.cor);
+	}
+}
