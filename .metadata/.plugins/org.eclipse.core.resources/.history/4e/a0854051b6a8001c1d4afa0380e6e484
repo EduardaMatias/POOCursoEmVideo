@@ -1,0 +1,13 @@
+/*Conta banco de Jubileu e da Clueza.
+ * 1° Criar uma conta: conta corrente ou conta poupança;
+ * Jubileu escolheu conta poupança, depositou 300 reais.
+ * Cleuza escolheu conta corrente, depositou 500 reais.
+ * 2° Saque
+ * Cleuza sacou 100 reais, ficando com 400 reais.
+ */
+
+package aula4;
+
+public class ContaBancaria {
+	
+}
