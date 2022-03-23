@@ -28,7 +28,6 @@ public class ContaBancaria {
 	private boolean statusConta;
 	private int valor;
 
-	//CONSTRUTOR
 	public ContaBancaria() {
 		this.setSaldo(0);
 		this.setStatusConta(false);
