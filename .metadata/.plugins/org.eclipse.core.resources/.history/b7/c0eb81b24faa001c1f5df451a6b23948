@@ -1,0 +1,9 @@
+package aula5;
+
+public class MainControleRemoto {
+
+	public static void main(String[] args) {
+
+	}
+
+}

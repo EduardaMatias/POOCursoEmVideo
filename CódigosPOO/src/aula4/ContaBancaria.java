@@ -28,6 +28,11 @@ public class ContaBancaria {
 	private boolean statusConta;
 	private int valor;
 
+	public ContaBancaria() {
+		this.setSaldo(0);
+		this.setStatusConta(false);
+	}
+	
 	// METODOS ESPECIAIS
 	public int getNumConta() {
 		return numConta;
@@ -69,10 +74,7 @@ public class ContaBancaria {
 		this.statusConta = statusConta;
 	}
 
-	public void ContaBanco() {
-		this.setSaldo(0);
-		this.setStatusConta(false);
-	}
+	
 
 	// METODOS PERSONALIZADOS
 	public void estadoAtual() {

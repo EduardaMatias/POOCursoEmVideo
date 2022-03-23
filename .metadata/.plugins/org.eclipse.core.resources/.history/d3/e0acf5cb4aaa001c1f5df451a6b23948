@@ -1,0 +1,40 @@
+package aula5;
+
+public class ControleRemoto {
+	private int volume;
+	private boolean ligado;
+	private boolean tocando;
+
+	// GETTERS E SETTERS
+	public int getVolume() {
+		return volume;
+	}
+
+	public void setVolume(int volume) {
+		this.volume = volume;
+	}
+
+	public boolean isLigado() {
+		return ligado;
+	}
+
+	public void setLigado(boolean ligado) {
+		this.ligado = ligado;
+	}
+
+	public boolean isTocando() {
+		return tocando;
+	}
+
+	public void setTocando(boolean tocando) {
+		this.tocando = tocando;
+	}
+
+	// CONSTRUTOR
+	public void Construtor() {
+		setVolume(50);
+		setLigado(false);
+		setTocando(false);
+	}
+
+}

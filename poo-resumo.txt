@@ -84,3 +84,31 @@ Todos os métodos acessores são públicos, os getters sempre retornam alguma co
 3. Método construtor
 
 =========================
+
+- Pilares da programação orientada a objetos
+
+EHP - Encapsulamente, Herança, Polimorfismo
+
+*Algumas bibliografias entendem a abstração como um dos pilares 
+
+1. Encapsulamento
+
+*Conceito
+
+- Um software encapsulado protege o código do usuario e o usuario do código. 
+- Utiliza-se de interfaces (molde padrão)
+- Encapsular é ocultar partes independentes da implementação, permitindo construit partes invisíveis ao mundo exterior.
+- Interface é uma lista de serviçoes fornecidos por um componente. É o contato com o mundo exterior, que define o que pode ser feito com o objeto dessa classe.
+- Encapsular não é obrigatório, mas é uma boa prática para produzir Classes mais eficientes.
+
+*Vantagem
+
+- Tornar mudanças invisiveis.
+- Facilitar reutilização do código.
+- Reduzir efeitos colaterais
+
+*Uma interface não tem atributos e todos os métodos são públicos e abstratos.
+*Os atributos da classe devem ficar privados/protegidos
+
+
+

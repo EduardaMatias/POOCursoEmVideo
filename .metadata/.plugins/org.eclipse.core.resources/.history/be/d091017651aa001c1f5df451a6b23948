@@ -1,0 +1,21 @@
+package aula5;
+
+public class MainControleRemoto {
+
+	public static void main(String[] args) {
+		ControleRemoto tv = new ControleRemoto();
+		
+		tv.ligar();
+		tv.maisVolume();
+		tv.play();
+		tv.abrirMenu();
+		
+		System.out.println("\n=========");
+		
+		ControleRemoto dvd = new ControleRemoto();
+		
+		dvd.maisVolume();
+		dvd.abrirMenu();
+	}
+
+}

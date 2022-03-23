@@ -1,0 +1,72 @@
+package aula5;
+
+public abstract class ControleRemoto implements Controlador{
+	private int volume;
+	private boolean ligado;
+	private boolean tocando;
+
+	// GETTERS E SETTERS
+	public int getVolume() {
+		return volume;
+	}
+
+	public void setVolume(int volume) {
+		this.volume = volume;
+	}
+
+	public boolean getLigado() {
+		return ligado;
+	}
+
+	public void setLigado(boolean ligado) {
+		this.ligado = ligado;
+	}
+
+	public boolean isTocando() {
+		return tocando;
+	}
+
+	public void setTocando(boolean tocando) {
+		this.tocando = tocando;
+	}
+
+	// CONSTRUTOR
+	public void Construtor() {
+		setVolume(50);
+		setLigado(false);
+		setTocando(false);
+	}
+	
+	//SOBREESCREVENDO MÉTODOS
+	
+	public void ligar() {
+		setLigado(true);
+	};
+
+	public void desligar(){
+		setLigado(false);
+	};;
+
+	public void abrirMenu() {
+		getLigado();
+		getVolume();
+		for(int i = 0; i <= getVolume(); i++) {
+			System.out.println("|");
+		}
+	};
+
+	public void fecharMenu();
+
+	public abstract void maisVolume();
+
+	public abstract void menosVolume();
+
+	public abstract void ligarMudo();
+
+	public abstract void desligarMudo();
+
+	public abstract void play();
+
+	public abstract void pause();
+
+}
