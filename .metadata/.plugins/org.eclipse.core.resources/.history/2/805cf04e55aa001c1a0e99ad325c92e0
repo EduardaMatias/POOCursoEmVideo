@@ -21,5 +21,4 @@ public interface Controlador {
 
 	public abstract void pause();
 	// NEM SEMPRE É VOID
-	// SEMPRE É ABSTRACT
 }
