@@ -1,7 +1,0 @@
-package aula3;
-
-public class MainCaneta {
-	public static void main(String[] args) {
-
-	}
-}

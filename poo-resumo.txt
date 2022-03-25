@@ -91,7 +91,7 @@ EHP - Encapsulamente, Herança, Polimorfismo
 
 *Algumas bibliografias entendem a abstração como um dos pilares 
 
-1. Encapsulamento
+Encapsulamento
 
 *Conceito
 
@@ -110,5 +110,7 @@ EHP - Encapsulamente, Herança, Polimorfismo
 *Uma interface não tem atributos e todos os métodos são públicos e abstratos.
 *Os atributos da classe devem ficar privados/protegidos
 
+=========================
 
+- Relacionamentos entre classes
 
